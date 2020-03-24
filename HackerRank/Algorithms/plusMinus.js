@@ -1,3 +1,9 @@
+/*
+Given an array of integers, calculate the fractions of its elements that are positive, negative, 
+and are zeros. Print the decimal value of each fraction on a new line.
+*/
+//Solution in JavaScript
+
 function plusMinus(arr){
 	//find the length of an array
 	var n = arr.length;
@@ -32,8 +38,6 @@ Template literals can contain placeholders. These are indicated by the dollar si
 	`${c} 
 	${b} 
 	${a}`);
-
-   
 }
 
 var arr = [-4, 3, -9, 0, 4, 1];
