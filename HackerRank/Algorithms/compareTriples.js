@@ -1,3 +1,9 @@
+/*
+Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges,
+awarding points on a scale from  to  for three categories: problem clarity, originality, and difficulty.
+*/
+//Solution in JavaScript
+
 function compareTriplets(a, b) {
 	var bobPoint = 0;
 	var alicePoint = 0;
