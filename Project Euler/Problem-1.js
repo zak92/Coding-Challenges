@@ -19,7 +19,7 @@ function isDivisible(a, n){
 function sumMult(n, a1, a2){
 	var d1 = isDivisible(a1, n)
 	var d2 = isDivisible(a2, n)
-	var d3 = isDivisible(15, n)
+	var d3 = isDivisible((a1*a2), n)
 // the aritmetic formula for adding
 // the terms of a sequence
 	var x1 = ((a1+d1)/2)*d1/a1;
