@@ -24,7 +24,7 @@ function sumMult(n, a1, a2){
 // the terms of a sequence
 	var x1 = ((a1+d1)/2)*d1/a1;
 	var x2 = ((a2+d2)/2)*d2/a2;
-	var x3 = ((15+d3)/2)*d3/15;
+	var x3 = (((a1*a2)+d3)/2)*d3/(a1*a2);
 
 	if(n < 15){
 		return x1 + x2;
